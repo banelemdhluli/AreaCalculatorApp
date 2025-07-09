@@ -1,6 +1,6 @@
-==============================
+
 🧮 AREA CALCULATOR APPLICATION
-==============================
+
 
 👤 Author: Banele Mdhluli  
 💻 Language: Java  
