@@ -51,11 +51,27 @@ The project includes the following files:
 
 🔍 4. SAMPLE USAGE
 
-Example for Rectangle:
-> Enter rectangle dimensions:  
-> Width >> 5  
-> Height >> 10  
-> Rectangle Area >> 50.0
+=== AREA CALCULATOR MENU ===
+
+1. Rectangle
+
+2. Circle
+
+3. Square
+
+4. Triangle
+
+5. Parallelogram
+
+6. Trapezium
+
+7. Rhombus
+
+8. Exit
+Choose a shape >> 2
+Enter circle dimensions:
+Radius >> 5
+Circle Area >> 78.5
 
 
 🧠 5. OBJECT-ORIENTED PRINCIPLES USED
@@ -65,6 +81,19 @@ Example for Rectangle:
 ✅ **Polymorphism** – Each shape overrides the `calculateArea()` method differently.  
 ✅ **Encapsulation** – User input is managed within each class using local variables.
 
-📝 6. LICENSE
+
+🧩 6. FEATURE: INTERACTIVE MENU SYSTEM
+
+The `AreaCalculatorApp.java` file have a new **interactive menu** feature using a `while (true)` loop and a `switch` statement.
+
+✨ Here's what it does:
+- Displays a numbered list of all available shapes.
+- Prompts the user to select a shape by entering the corresponding number.
+- Instantiates the selected shape and calls its `calculateArea()` method.
+- Allows multiple calculations without restarting the program.
+- Exits the application gracefully when the user selects `0`.
+
+
+📝 7. LICENSE
 
 This project is free to use and modify for learning and educational purposes.
